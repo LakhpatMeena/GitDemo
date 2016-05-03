@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		947DF46B1CB75906008312C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947DF46A1CB75906008312C0 /* Foundation.framework */; };
+		947DF46D1CB75906008312C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947DF46C1CB75906008312C0 /* CoreGraphics.framework */; };
+		947DF46F1CB75906008312C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947DF46E1CB75906008312C0 /* UIKit.framework */; };
+		947DF4751CB75906008312C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 947DF4731CB75906008312C0 /* InfoPlist.strings */; };
+		947DF4771CB75906008312C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 947DF4761CB75906008312C0 /* main.m */; };
+		947DF47B1CB75906008312C0 /* BTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 947DF47A1CB75906008312C0 /* BTAppDelegate.m */; };
+		947DF47D1CB75906008312C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947DF47C1CB75906008312C0 /* Images.xcassets */; };
+		947DF4841CB75906008312C0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947DF4831CB75906008312C0 /* XCTest.framework */; };
+		947DF4851CB75906008312C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947DF46A1CB75906008312C0 /* Foundation.framework */; };
+		947DF4861CB75906008312C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947DF46E1CB75906008312C0 /* UIKit.framework */; };
+		947DF48E1CB75907008312C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 947DF48C1CB75907008312C0 /* InfoPlist.strings */; };
+		947DF4901CB75907008312C0 /* BTServiceTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 947DF48F1CB75907008312C0 /* BTServiceTrackerTests.m */; };
+		947DF49A1CB75AF9008312C0 /* BTServiceTracker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947DF4991CB75AF9008312C0 /* BTServiceTracker.storyboard */; };
+		9485DD871CBF9DF4009ADF14 /* btfont_exbd-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9485DD831CBF9DF4009ADF14 /* btfont_exbd-webfont.ttf */; };
+		9485DD881CBF9DF4009ADF14 /* btfont_lt-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9485DD841CBF9DF4009ADF14 /* btfont_lt-webfont.ttf */; };
+		9485DD891CBF9DF4009ADF14 /* newbt-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9485DD851CBF9DF4009ADF14 /* newbt-webfont.ttf */; };
+		9485DD8A1CBF9DF4009ADF14 /* newbtbd-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9485DD861CBF9DF4009ADF14 /* newbtbd-webfont.ttf */; };
+		948F78AF1CBE7C8A007411A0 /* BTServiceTrackerHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948F78AE1CBE7C8A007411A0 /* BTServiceTrackerHomeViewController.m */; };
+		948F78B21CBEC0CC007411A0 /* BTServiceDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948F78B11CBEC0CC007411A0 /* BTServiceDetailsViewController.m */; };
+		94912DF21CC57BEC009BE18B /* BTServiceDetailsTableSubSectionViewCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94912DF01CC57BEC009BE18B /* BTServiceDetailsTableSubSectionViewCellTableViewCell.m */; };
+		94912DF31CC57BEC009BE18B /* BTServiceDetailsTableSubSectionViewCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94912DF11CC57BEC009BE18B /* BTServiceDetailsTableSubSectionViewCellTableViewCell.xib */; };
+		94912DF61CC5BC24009BE18B /* BTServiceDetailsTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94912DF51CC5BC24009BE18B /* BTServiceDetailsTableHeaderView.m */; };
+		94912DF91CC5D01B009BE18B /* BTAppFontFamily.m in Sources */ = {isa = PBXBuildFile; fileRef = 94912DF81CC5D01B009BE18B /* BTAppFontFamily.m */; };
+		94912DFC1CC5EBA3009BE18B /* BTFaultData.m in Sources */ = {isa = PBXBuildFile; fileRef = 94912DFB1CC5EBA3009BE18B /* BTFaultData.m */; };
+		94912E001CC64155009BE18B /* BTServiceDetailsRecentSearchedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94912DFE1CC64155009BE18B /* BTServiceDetailsRecentSearchedTableViewCell.m */; };
+		94912E011CC64155009BE18B /* BTServiceDetailsRecentSearchedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94912DFF1CC64155009BE18B /* BTServiceDetailsRecentSearchedTableViewCell.xib */; };
+		94B595231CBFE4FC00E25BDF /* BTServiceDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B595211CBFE4FC00E25BDF /* BTServiceDetailsTableViewCell.m */; };
+		94B595241CBFE4FC00E25BDF /* BTServiceDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94B595221CBFE4FC00E25BDF /* BTServiceDetailsTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		947DF4871CB75906008312C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 947DF45F1CB75906008312C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 947DF4661CB75906008312C0;
+			remoteInfo = BTServiceTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		947DF4671CB75906008312C0 /* BTServiceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTServiceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		947DF46A1CB75906008312C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		947DF46C1CB75906008312C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		947DF46E1CB75906008312C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		947DF4721CB75906008312C0 /* BTServiceTracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTServiceTracker-Info.plist"; sourceTree = "<group>"; };
+		947DF4741CB75906008312C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		947DF4761CB75906008312C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		947DF4781CB75906008312C0 /* BTServiceTracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTServiceTracker-Prefix.pch"; sourceTree = "<group>"; };
+		947DF4791CB75906008312C0 /* BTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAppDelegate.h; sourceTree = "<group>"; };
+		947DF47A1CB75906008312C0 /* BTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAppDelegate.m; sourceTree = "<group>"; };
+		947DF47C1CB75906008312C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		947DF4821CB75906008312C0 /* BTServiceTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTServiceTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		947DF4831CB75906008312C0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		947DF48B1CB75907008312C0 /* BTServiceTrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTServiceTrackerTests-Info.plist"; sourceTree = "<group>"; };
+		947DF48D1CB75907008312C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		947DF48F1CB75907008312C0 /* BTServiceTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTServiceTrackerTests.m; sourceTree = "<group>"; };
+		947DF4991CB75AF9008312C0 /* BTServiceTracker.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BTServiceTracker.storyboard; sourceTree = "<group>"; };
+		9485DD831CBF9DF4009ADF14 /* btfont_exbd-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "btfont_exbd-webfont.ttf"; sourceTree = "<group>"; };
+		9485DD841CBF9DF4009ADF14 /* btfont_lt-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "btfont_lt-webfont.ttf"; sourceTree = "<group>"; };
+		9485DD851CBF9DF4009ADF14 /* newbt-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "newbt-webfont.ttf"; sourceTree = "<group>"; };
+		9485DD861CBF9DF4009ADF14 /* newbtbd-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "newbtbd-webfont.ttf"; sourceTree = "<group>"; };
+		948F78AD1CBE7C8A007411A0 /* BTServiceTrackerHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTServiceTrackerHomeViewController.h; sourceTree = "<group>"; };
+		948F78AE1CBE7C8A007411A0 /* BTServiceTrackerHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTServiceTrackerHomeViewController.m; sourceTree = "<group>"; };
+		948F78B01CBEC0CC007411A0 /* BTServiceDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTServiceDetailsViewController.h; sourceTree = "<group>"; };
+		948F78B11CBEC0CC007411A0 /* BTServiceDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTServiceDetailsViewController.m; sourceTree = "<group>"; };
+		94912DEF1CC57BEC009BE18B /* BTServiceDetailsTableSubSectionViewCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTServiceDetailsTableSubSectionViewCellTableViewCell.h; sourceTree = "<group>"; };
+		94912DF01CC57BEC009BE18B /* BTServiceDetailsTableSubSectionViewCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTServiceDetailsTableSubSectionViewCellTableViewCell.m; sourceTree = "<group>"; };
+		94912DF11CC57BEC009BE18B /* BTServiceDetailsTableSubSectionViewCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTServiceDetailsTableSubSectionViewCellTableViewCell.xib; sourceTree = "<group>"; };
+		94912DF41CC5BC24009BE18B /* BTServiceDetailsTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTServiceDetailsTableHeaderView.h; path = ../BTServiceDetailsTableHeaderView.h; sourceTree = "<group>"; };
+		94912DF51CC5BC24009BE18B /* BTServiceDetailsTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTServiceDetailsTableHeaderView.m; path = ../BTServiceDetailsTableHeaderView.m; sourceTree = "<group>"; };
+		94912DF71CC5D01B009BE18B /* BTAppFontFamily.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAppFontFamily.h; sourceTree = "<group>"; };
+		94912DF81CC5D01B009BE18B /* BTAppFontFamily.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAppFontFamily.m; sourceTree = "<group>"; };
+		94912DFA1CC5EBA3009BE18B /* BTFaultData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTFaultData.h; sourceTree = "<group>"; };
+		94912DFB1CC5EBA3009BE18B /* BTFaultData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTFaultData.m; sourceTree = "<group>"; };
+		94912DFD1CC64155009BE18B /* BTServiceDetailsRecentSearchedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTServiceDetailsRecentSearchedTableViewCell.h; sourceTree = "<group>"; };
+		94912DFE1CC64155009BE18B /* BTServiceDetailsRecentSearchedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTServiceDetailsRecentSearchedTableViewCell.m; sourceTree = "<group>"; };
+		94912DFF1CC64155009BE18B /* BTServiceDetailsRecentSearchedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTServiceDetailsRecentSearchedTableViewCell.xib; sourceTree = "<group>"; };
+		94B595201CBFE4FC00E25BDF /* BTServiceDetailsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTServiceDetailsTableViewCell.h; sourceTree = "<group>"; };
+		94B595211CBFE4FC00E25BDF /* BTServiceDetailsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTServiceDetailsTableViewCell.m; sourceTree = "<group>"; };
+		94B595221CBFE4FC00E25BDF /* BTServiceDetailsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTServiceDetailsTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		947DF4641CB75906008312C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947DF46D1CB75906008312C0 /* CoreGraphics.framework in Frameworks */,
+				947DF46F1CB75906008312C0 /* UIKit.framework in Frameworks */,
+				947DF46B1CB75906008312C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947DF47F1CB75906008312C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947DF4841CB75906008312C0 /* XCTest.framework in Frameworks */,
+				947DF4861CB75906008312C0 /* UIKit.framework in Frameworks */,
+				947DF4851CB75906008312C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		947DF45E1CB75906008312C0 = {
+			isa = PBXGroup;
+			children = (
+				9485DD821CBF9D8D009ADF14 /* Fonts */,
+				947DF4701CB75906008312C0 /* BTServiceTracker */,
+				947DF4891CB75906008312C0 /* BTServiceTrackerTests */,
+				947DF4691CB75906008312C0 /* Frameworks */,
+				947DF4681CB75906008312C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		947DF4681CB75906008312C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				947DF4671CB75906008312C0 /* BTServiceTracker.app */,
+				947DF4821CB75906008312C0 /* BTServiceTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		947DF4691CB75906008312C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				947DF46A1CB75906008312C0 /* Foundation.framework */,
+				947DF46C1CB75906008312C0 /* CoreGraphics.framework */,
+				947DF46E1CB75906008312C0 /* UIKit.framework */,
+				947DF4831CB75906008312C0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		947DF4701CB75906008312C0 /* BTServiceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				947DF4791CB75906008312C0 /* BTAppDelegate.h */,
+				947DF47A1CB75906008312C0 /* BTAppDelegate.m */,
+				94912DF71CC5D01B009BE18B /* BTAppFontFamily.h */,
+				94912DF81CC5D01B009BE18B /* BTAppFontFamily.m */,
+				94912DFA1CC5EBA3009BE18B /* BTFaultData.h */,
+				94912DFB1CC5EBA3009BE18B /* BTFaultData.m */,
+				948F78AD1CBE7C8A007411A0 /* BTServiceTrackerHomeViewController.h */,
+				948F78AE1CBE7C8A007411A0 /* BTServiceTrackerHomeViewController.m */,
+				948F78B01CBEC0CC007411A0 /* BTServiceDetailsViewController.h */,
+				948F78B11CBEC0CC007411A0 /* BTServiceDetailsViewController.m */,
+				94912DF41CC5BC24009BE18B /* BTServiceDetailsTableHeaderView.h */,
+				94912DF51CC5BC24009BE18B /* BTServiceDetailsTableHeaderView.m */,
+				94912DEF1CC57BEC009BE18B /* BTServiceDetailsTableSubSectionViewCellTableViewCell.h */,
+				94912DF01CC57BEC009BE18B /* BTServiceDetailsTableSubSectionViewCellTableViewCell.m */,
+				94912DF11CC57BEC009BE18B /* BTServiceDetailsTableSubSectionViewCellTableViewCell.xib */,
+				94B595201CBFE4FC00E25BDF /* BTServiceDetailsTableViewCell.h */,
+				94B595211CBFE4FC00E25BDF /* BTServiceDetailsTableViewCell.m */,
+				94B595221CBFE4FC00E25BDF /* BTServiceDetailsTableViewCell.xib */,
+				94912DFD1CC64155009BE18B /* BTServiceDetailsRecentSearchedTableViewCell.h */,
+				94912DFE1CC64155009BE18B /* BTServiceDetailsRecentSearchedTableViewCell.m */,
+				94912DFF1CC64155009BE18B /* BTServiceDetailsRecentSearchedTableViewCell.xib */,
+				947DF4991CB75AF9008312C0 /* BTServiceTracker.storyboard */,
+				947DF47C1CB75906008312C0 /* Images.xcassets */,
+				947DF4711CB75906008312C0 /* Supporting Files */,
+			);
+			path = BTServiceTracker;
+			sourceTree = "<group>";
+		};
+		947DF4711CB75906008312C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				947DF4721CB75906008312C0 /* BTServiceTracker-Info.plist */,
+				947DF4731CB75906008312C0 /* InfoPlist.strings */,
+				947DF4761CB75906008312C0 /* main.m */,
+				947DF4781CB75906008312C0 /* BTServiceTracker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		947DF4891CB75906008312C0 /* BTServiceTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				947DF48F1CB75907008312C0 /* BTServiceTrackerTests.m */,
+				947DF48A1CB75907008312C0 /* Supporting Files */,
+			);
+			path = BTServiceTrackerTests;
+			sourceTree = "<group>";
+		};
+		947DF48A1CB75907008312C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				947DF48B1CB75907008312C0 /* BTServiceTrackerTests-Info.plist */,
+				947DF48C1CB75907008312C0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9485DD821CBF9D8D009ADF14 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9485DD831CBF9DF4009ADF14 /* btfont_exbd-webfont.ttf */,
+				9485DD841CBF9DF4009ADF14 /* btfont_lt-webfont.ttf */,
+				9485DD851CBF9DF4009ADF14 /* newbt-webfont.ttf */,
+				9485DD861CBF9DF4009ADF14 /* newbtbd-webfont.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		947DF4661CB75906008312C0 /* BTServiceTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947DF4931CB75907008312C0 /* Build configuration list for PBXNativeTarget "BTServiceTracker" */;
+			buildPhases = (
+				947DF4631CB75906008312C0 /* Sources */,
+				947DF4641CB75906008312C0 /* Frameworks */,
+				947DF4651CB75906008312C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTServiceTracker;
+			productName = BTServiceTracker;
+			productReference = 947DF4671CB75906008312C0 /* BTServiceTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		947DF4811CB75906008312C0 /* BTServiceTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947DF4961CB75907008312C0 /* Build configuration list for PBXNativeTarget "BTServiceTrackerTests" */;
+			buildPhases = (
+				947DF47E1CB75906008312C0 /* Sources */,
+				947DF47F1CB75906008312C0 /* Frameworks */,
+				947DF4801CB75906008312C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				947DF4881CB75906008312C0 /* PBXTargetDependency */,
+			);
+			name = BTServiceTrackerTests;
+			productName = BTServiceTrackerTests;
+			productReference = 947DF4821CB75906008312C0 /* BTServiceTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		947DF45F1CB75906008312C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Accolite;
+				TargetAttributes = {
+					947DF4811CB75906008312C0 = {
+						TestTargetID = 947DF4661CB75906008312C0;
+					};
+				};
+			};
+			buildConfigurationList = 947DF4621CB75906008312C0 /* Build configuration list for PBXProject "BTServiceTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 947DF45E1CB75906008312C0;
+			productRefGroup = 947DF4681CB75906008312C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				947DF4661CB75906008312C0 /* BTServiceTracker */,
+				947DF4811CB75906008312C0 /* BTServiceTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		947DF4651CB75906008312C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9485DD871CBF9DF4009ADF14 /* btfont_exbd-webfont.ttf in Resources */,
+				947DF4751CB75906008312C0 /* InfoPlist.strings in Resources */,
+				9485DD881CBF9DF4009ADF14 /* btfont_lt-webfont.ttf in Resources */,
+				947DF47D1CB75906008312C0 /* Images.xcassets in Resources */,
+				94912DF31CC57BEC009BE18B /* BTServiceDetailsTableSubSectionViewCellTableViewCell.xib in Resources */,
+				9485DD8A1CBF9DF4009ADF14 /* newbtbd-webfont.ttf in Resources */,
+				947DF49A1CB75AF9008312C0 /* BTServiceTracker.storyboard in Resources */,
+				94B595241CBFE4FC00E25BDF /* BTServiceDetailsTableViewCell.xib in Resources */,
+				94912E011CC64155009BE18B /* BTServiceDetailsRecentSearchedTableViewCell.xib in Resources */,
+				9485DD891CBF9DF4009ADF14 /* newbt-webfont.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947DF4801CB75906008312C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947DF48E1CB75907008312C0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		947DF4631CB75906008312C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94912E001CC64155009BE18B /* BTServiceDetailsRecentSearchedTableViewCell.m in Sources */,
+				94B595231CBFE4FC00E25BDF /* BTServiceDetailsTableViewCell.m in Sources */,
+				947DF47B1CB75906008312C0 /* BTAppDelegate.m in Sources */,
+				948F78AF1CBE7C8A007411A0 /* BTServiceTrackerHomeViewController.m in Sources */,
+				94912DFC1CC5EBA3009BE18B /* BTFaultData.m in Sources */,
+				94912DF21CC57BEC009BE18B /* BTServiceDetailsTableSubSectionViewCellTableViewCell.m in Sources */,
+				94912DF91CC5D01B009BE18B /* BTAppFontFamily.m in Sources */,
+				948F78B21CBEC0CC007411A0 /* BTServiceDetailsViewController.m in Sources */,
+				947DF4771CB75906008312C0 /* main.m in Sources */,
+				94912DF61CC5BC24009BE18B /* BTServiceDetailsTableHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947DF47E1CB75906008312C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947DF4901CB75907008312C0 /* BTServiceTrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		947DF4881CB75906008312C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 947DF4661CB75906008312C0 /* BTServiceTracker */;
+			targetProxy = 947DF4871CB75906008312C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		947DF4731CB75906008312C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				947DF4741CB75906008312C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		947DF48C1CB75907008312C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				947DF48D1CB75907008312C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		947DF4911CB75907008312C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		947DF4921CB75907008312C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		947DF4941CB75907008312C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTServiceTracker/BTServiceTracker-Prefix.pch";
+				INFOPLIST_FILE = "BTServiceTracker/BTServiceTracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		947DF4951CB75907008312C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTServiceTracker/BTServiceTracker-Prefix.pch";
+				INFOPLIST_FILE = "BTServiceTracker/BTServiceTracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		947DF4971CB75907008312C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTServiceTracker.app/BTServiceTracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTServiceTracker/BTServiceTracker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BTServiceTrackerTests/BTServiceTrackerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		947DF4981CB75907008312C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTServiceTracker.app/BTServiceTracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTServiceTracker/BTServiceTracker-Prefix.pch";
+				INFOPLIST_FILE = "BTServiceTrackerTests/BTServiceTrackerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		947DF4621CB75906008312C0 /* Build configuration list for PBXProject "BTServiceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947DF4911CB75907008312C0 /* Debug */,
+				947DF4921CB75907008312C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947DF4931CB75907008312C0 /* Build configuration list for PBXNativeTarget "BTServiceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947DF4941CB75907008312C0 /* Debug */,
+				947DF4951CB75907008312C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947DF4961CB75907008312C0 /* Build configuration list for PBXNativeTarget "BTServiceTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947DF4971CB75907008312C0 /* Debug */,
+				947DF4981CB75907008312C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 947DF45F1CB75906008312C0 /* Project object */;
+}

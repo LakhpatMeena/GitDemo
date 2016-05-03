@@ -21,10 +21,23 @@
 		943351E51CD074900056A213 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943351C71CD0748F0056A213 /* UIKit.framework */; };
 		943351ED1CD074900056A213 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 943351EB1CD074900056A213 /* InfoPlist.strings */; };
 		943351EF1CD074900056A213 /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943351EE1CD074900056A213 /* GitDemoTests.m */; };
+		943351FD1CD776060056A213 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943351E21CD074900056A213 /* XCTest.framework */; };
+		943351FE1CD776060056A213 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943351C31CD0748F0056A213 /* Foundation.framework */; };
+		943351FF1CD776060056A213 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943351C71CD0748F0056A213 /* UIKit.framework */; };
+		943352051CD776060056A213 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 943352031CD776060056A213 /* InfoPlist.strings */; };
+		943352071CD776060056A213 /* GitDemoLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943352061CD776060056A213 /* GitDemoLogicTests.m */; };
+		9433520F1CD78CCF0056A213 /* BTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9433520E1CD78CCF0056A213 /* BTViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		943351E61CD074900056A213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943351B81CD0748F0056A213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 943351BF1CD0748F0056A213;
+			remoteInfo = GitDemo;
+		};
+		943352091CD776070056A213 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 943351B81CD0748F0056A213 /* Project object */;
 			proxyType = 1;
@@ -53,6 +66,12 @@
 		943351EA1CD074900056A213 /* GitDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitDemoTests-Info.plist"; sourceTree = "<group>"; };
 		943351EC1CD074900056A213 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		943351EE1CD074900056A213 /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
+		943351FC1CD776050056A213 /* GitDemoLogicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoLogicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		943352021CD776060056A213 /* GitDemoLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitDemoLogicTests-Info.plist"; sourceTree = "<group>"; };
+		943352041CD776060056A213 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		943352061CD776060056A213 /* GitDemoLogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoLogicTests.m; sourceTree = "<group>"; };
+		943352081CD776060056A213 /* GitDemoLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GitDemoLogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		9433520E1CD78CCF0056A213 /* BTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +95,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		943351F91CD776050056A213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943351FD1CD776060056A213 /* XCTest.framework in Frameworks */,
+				943351FF1CD776060056A213 /* UIKit.framework in Frameworks */,
+				943351FE1CD776060056A213 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +113,7 @@
 			children = (
 				943351C91CD0748F0056A213 /* GitDemo */,
 				943351E81CD074900056A213 /* GitDemoTests */,
+				943352001CD776060056A213 /* GitDemoLogicTests */,
 				943351C21CD0748F0056A213 /* Frameworks */,
 				943351C11CD0748F0056A213 /* Products */,
 			);
@@ -94,6 +124,7 @@
 			children = (
 				943351C01CD0748F0056A213 /* GitDemo.app */,
 				943351E11CD074900056A213 /* GitDemoTests.xctest */,
+				943351FC1CD776050056A213 /* GitDemoLogicTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +183,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		943352001CD776060056A213 /* GitDemoLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				943352061CD776060056A213 /* GitDemoLogicTests.m */,
+				943352011CD776060056A213 /* Supporting Files */,
+				9433520E1CD78CCF0056A213 /* BTViewController.m */,
+			);
+			path = GitDemoLogicTests;
+			sourceTree = "<group>";
+		};
+		943352011CD776060056A213 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				943352021CD776060056A213 /* GitDemoLogicTests-Info.plist */,
+				943352031CD776060056A213 /* InfoPlist.strings */,
+				943352081CD776060056A213 /* GitDemoLogicTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,6 +241,24 @@
 			productReference = 943351E11CD074900056A213 /* GitDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		943351FB1CD776050056A213 /* GitDemoLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9433520B1CD776070056A213 /* Build configuration list for PBXNativeTarget "GitDemoLogicTests" */;
+			buildPhases = (
+				943351F81CD776050056A213 /* Sources */,
+				943351F91CD776050056A213 /* Frameworks */,
+				943351FA1CD776050056A213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9433520A1CD776070056A213 /* PBXTargetDependency */,
+			);
+			name = GitDemoLogicTests;
+			productName = GitDemoLogicTests;
+			productReference = 943351FC1CD776050056A213 /* GitDemoLogicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,6 +270,9 @@
 				ORGANIZATIONNAME = Accolite;
 				TargetAttributes = {
 					943351E01CD074900056A213 = {
+						TestTargetID = 943351BF1CD0748F0056A213;
+					};
+					943351FB1CD776050056A213 = {
 						TestTargetID = 943351BF1CD0748F0056A213;
 					};
 				};
@@ -220,6 +292,7 @@
 			targets = (
 				943351BF1CD0748F0056A213 /* GitDemo */,
 				943351E01CD074900056A213 /* GitDemoTests */,
+				943351FB1CD776050056A213 /* GitDemoLogicTests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,6 +313,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				943351ED1CD074900056A213 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943351FA1CD776050056A213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943352051CD776060056A213 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +345,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		943351F81CD776050056A213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9433520F1CD78CCF0056A213 /* BTViewController.m in Sources */,
+				943352071CD776060056A213 /* GitDemoLogicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -271,6 +361,11 @@
 			isa = PBXTargetDependency;
 			target = 943351BF1CD0748F0056A213 /* GitDemo */;
 			targetProxy = 943351E61CD074900056A213 /* PBXContainerItemProxy */;
+		};
+		9433520A1CD776070056A213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 943351BF1CD0748F0056A213 /* GitDemo */;
+			targetProxy = 943352091CD776070056A213 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -295,6 +390,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				943351EC1CD074900056A213 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		943352031CD776060056A213 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				943352041CD776060056A213 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -438,6 +541,46 @@
 			};
 			name = Release;
 		};
+		9433520C1CD776070056A213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GitDemo.app/GitDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitDemoLogicTests/GitDemoLogicTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GitDemoLogicTests/GitDemoLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9433520D1CD776070056A213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GitDemo.app/GitDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitDemoLogicTests/GitDemoLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "GitDemoLogicTests/GitDemoLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -463,6 +606,14 @@
 			buildConfigurations = (
 				943351F61CD074900056A213 /* Debug */,
 				943351F71CD074900056A213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9433520B1CD776070056A213 /* Build configuration list for PBXNativeTarget "GitDemoLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9433520C1CD776070056A213 /* Debug */,
+				9433520D1CD776070056A213 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

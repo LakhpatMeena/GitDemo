@@ -12,6 +12,16 @@
 		94F7856D1C7F2ECB0010C18E /* AGoodStart.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 94F7856C1C7F2ECB0010C18E /* AGoodStart.1 */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		94F785931C7F4C5C0010C18E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94F7858F1C7F4C5B0010C18E /* Collection.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 94F7857E1C7F4C5B0010C18E;
+			remoteInfo = Collection;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		94F785601C7F2ECB0010C18E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -31,6 +41,9 @@
 		94F785681C7F2ECB0010C18E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		94F7856B1C7F2ECB0010C18E /* AGoodStart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AGoodStart-Prefix.pch"; sourceTree = "<group>"; };
 		94F7856C1C7F2ECB0010C18E /* AGoodStart.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AGoodStart.1; sourceTree = "<group>"; };
+		94F785731C7F31D10010C18E /* BNRPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRPerson.h; sourceTree = "<group>"; };
+		94F785741C7F32870010C18E /* BNREmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNREmployee.h; sourceTree = "<group>"; };
+		94F7858F1C7F4C5B0010C18E /* Collection.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Collection.xcodeproj; path = Collection/Collection.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +64,7 @@
 				94F785671C7F2ECB0010C18E /* AGoodStart */,
 				94F785641C7F2ECB0010C18E /* Frameworks */,
 				94F785631C7F2ECB0010C18E /* Products */,
+				94F7858F1C7F4C5B0010C18E /* Collection.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +90,8 @@
 				94F785681C7F2ECB0010C18E /* main.m */,
 				94F7856C1C7F2ECB0010C18E /* AGoodStart.1 */,
 				94F7856A1C7F2ECB0010C18E /* Supporting Files */,
+				94F785731C7F31D10010C18E /* BNRPerson.h */,
+				94F785741C7F32870010C18E /* BNREmployee.h */,
 			);
 			path = AGoodStart;
 			sourceTree = "<group>";
@@ -86,6 +102,14 @@
 				94F7856B1C7F2ECB0010C18E /* AGoodStart-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94F785901C7F4C5B0010C18E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94F785941C7F4C5C0010C18E /* Collection */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,12 +151,28 @@
 			mainGroup = 94F785591C7F2ECB0010C18E;
 			productRefGroup = 94F785631C7F2ECB0010C18E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 94F785901C7F4C5B0010C18E /* Products */;
+					ProjectRef = 94F7858F1C7F4C5B0010C18E /* Collection.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				94F785611C7F2ECB0010C18E /* AGoodStart */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		94F785941C7F4C5C0010C18E /* Collection */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Collection;
+			remoteRef = 94F785931C7F4C5C0010C18E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		94F7855E1C7F2ECB0010C18E /* Sources */ = {

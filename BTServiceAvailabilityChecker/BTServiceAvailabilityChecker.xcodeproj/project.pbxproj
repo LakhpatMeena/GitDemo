@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9433519F1CCF1E6B0056A213 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9433518C1CCF1E6B0056A213 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		943351A01CCF1E6B0056A213 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9433518F1CCF1E6B0056A213 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		943351A11CCF1E6B0056A213 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 943351911CCF1E6B0056A213 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		943351A21CCF1E6B0056A213 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 943351931CCF1E6B0056A213 /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		943351A31CCF1E6B0056A213 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 943351951CCF1E6B0056A213 /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		943351A41CCF1E6B0056A213 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 943351971CCF1E6B0056A213 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		943351A51CCF1E6B0056A213 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 9433519B1CCF1E6B0056A213 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		943351A61CCF1E6B0056A213 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9433519D1CCF1E6B0056A213 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		943351AE1CCF244A0056A213 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 943351AD1CCF244A0056A213 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		943351AF1CCF26B70056A213 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943351841CCED4DD0056A213 /* CFNetwork.framework */; };
+		943351B01CCF26C90056A213 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943351881CCED5130056A213 /* MobileCoreServices.framework */; };
+		943351B11CCF26D50056A213 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943351861CCED4FE0056A213 /* SystemConfiguration.framework */; };
+		943351B41CCF27DC0056A213 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943351B31CCF27DC0056A213 /* AdSupport.framework */; };
+		943351B61CCF27F20056A213 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 943351B51CCF27F20056A213 /* libz.dylib */; };
+		947FB8791CCD14DA00F285D8 /* BTSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 947FB8781CCD14DA00F285D8 /* BTSettingsViewController.m */; };
+		947FB87C1CCD62C100F285D8 /* BTCustomizeHomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 947FB87B1CCD62C100F285D8 /* BTCustomizeHomeScreenViewController.m */; };
+		94912E5D1CC6C500009BE18B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94912E5C1CC6C500009BE18B /* Foundation.framework */; };
+		94912E5F1CC6C500009BE18B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94912E5E1CC6C500009BE18B /* CoreGraphics.framework */; };
+		94912E611CC6C500009BE18B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94912E601CC6C500009BE18B /* UIKit.framework */; };
+		94912E671CC6C500009BE18B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94912E651CC6C500009BE18B /* InfoPlist.strings */; };
+		94912E691CC6C500009BE18B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94912E681CC6C500009BE18B /* main.m */; };
+		94912E6D1CC6C500009BE18B /* BTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94912E6C1CC6C500009BE18B /* BTAppDelegate.m */; };
+		94912E6F1CC6C500009BE18B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94912E6E1CC6C500009BE18B /* Images.xcassets */; };
+		94912E761CC6C500009BE18B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94912E751CC6C500009BE18B /* XCTest.framework */; };
+		94912E771CC6C501009BE18B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94912E5C1CC6C500009BE18B /* Foundation.framework */; };
+		94912E781CC6C501009BE18B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94912E601CC6C500009BE18B /* UIKit.framework */; };
+		94912E801CC6C501009BE18B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94912E7E1CC6C501009BE18B /* InfoPlist.strings */; };
+		94912E821CC6C501009BE18B /* BTServiceAvailabilityCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94912E811CC6C501009BE18B /* BTServiceAvailabilityCheckerTests.m */; };
+		94912E8C1CC6C529009BE18B /* BTServiceAvailabilityChecker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94912E8B1CC6C529009BE18B /* BTServiceAvailabilityChecker.storyboard */; };
+		94912E8F1CC6CA53009BE18B /* BTServiceAvailabilityCheckerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94912E8E1CC6CA53009BE18B /* BTServiceAvailabilityCheckerViewController.m */; };
+		94912E921CC6CAB0009BE18B /* BTServiceAvailabilityDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94912E911CC6CAB0009BE18B /* BTServiceAvailabilityDetailsViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		94912E951CC6D969009BE18B /* BTAppFontFamily.m in Sources */ = {isa = PBXBuildFile; fileRef = 94912E941CC6D969009BE18B /* BTAppFontFamily.m */; };
+		94912E9B1CC6F7E1009BE18B /* btfont_exbd-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94912E971CC6F7E1009BE18B /* btfont_exbd-webfont.ttf */; };
+		94912E9C1CC6F7E1009BE18B /* btfont_lt-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94912E981CC6F7E1009BE18B /* btfont_lt-webfont.ttf */; };
+		94912E9D1CC6F7E1009BE18B /* newbt-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94912E991CC6F7E1009BE18B /* newbt-webfont.ttf */; };
+		94912E9E1CC6F7E1009BE18B /* newbtbd-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94912E9A1CC6F7E1009BE18B /* newbtbd-webfont.ttf */; };
+		94912EA21CC6FB92009BE18B /* BTServiceAvailabilityDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94912EA01CC6FB92009BE18B /* BTServiceAvailabilityDetailsTableViewCell.m */; };
+		94912EA31CC6FB92009BE18B /* BTServiceAvailabilityDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94912EA11CC6FB92009BE18B /* BTServiceAvailabilityDetailsTableViewCell.xib */; };
+		949565211CC9289800A3500E /* BTAvailableServiceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 949565201CC9289800A3500E /* BTAvailableServiceData.m */; };
+		949565251CC99A7500A3500E /* BTRecentlySearchedPhoneNumberTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 949565231CC99A7500A3500E /* BTRecentlySearchedPhoneNumberTableViewCell.m */; };
+		949565261CC99A7500A3500E /* BTRecentlySearchedPhoneNumberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949565241CC99A7500A3500E /* BTRecentlySearchedPhoneNumberTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94912E791CC6C501009BE18B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94912E511CC6C500009BE18B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94912E581CC6C500009BE18B;
+			remoteInfo = BTServiceAvailabilityChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		943351841CCED4DD0056A213 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		943351861CCED4FE0056A213 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		943351881CCED5130056A213 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9433518B1CCF1E6B0056A213 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		9433518C1CCF1E6B0056A213 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		9433518D1CCF1E6B0056A213 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		9433518E1CCF1E6B0056A213 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		9433518F1CCF1E6B0056A213 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		943351901CCF1E6B0056A213 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		943351911CCF1E6B0056A213 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		943351921CCF1E6B0056A213 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		943351931CCF1E6B0056A213 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		943351941CCF1E6B0056A213 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		943351951CCF1E6B0056A213 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		943351961CCF1E6B0056A213 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		943351971CCF1E6B0056A213 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		943351981CCF1E6B0056A213 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		943351991CCF1E6B0056A213 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		9433519A1CCF1E6B0056A213 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		9433519B1CCF1E6B0056A213 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		9433519C1CCF1E6B0056A213 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		9433519D1CCF1E6B0056A213 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		9433519E1CCF1E6B0056A213 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		943351A71CCF1E840056A213 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		943351AD1CCF244A0056A213 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		943351B31CCF27DC0056A213 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		943351B51CCF27F20056A213 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		947FB8771CCD14DA00F285D8 /* BTSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSettingsViewController.h; sourceTree = "<group>"; };
+		947FB8781CCD14DA00F285D8 /* BTSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSettingsViewController.m; sourceTree = "<group>"; };
+		947FB87A1CCD62C100F285D8 /* BTCustomizeHomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCustomizeHomeScreenViewController.h; sourceTree = "<group>"; };
+		947FB87B1CCD62C100F285D8 /* BTCustomizeHomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCustomizeHomeScreenViewController.m; sourceTree = "<group>"; };
+		94912E591CC6C500009BE18B /* BTServiceAvailabilityChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTServiceAvailabilityChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94912E5C1CC6C500009BE18B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94912E5E1CC6C500009BE18B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94912E601CC6C500009BE18B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94912E641CC6C500009BE18B /* BTServiceAvailabilityChecker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTServiceAvailabilityChecker-Info.plist"; sourceTree = "<group>"; };
+		94912E661CC6C500009BE18B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94912E681CC6C500009BE18B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94912E6A1CC6C500009BE18B /* BTServiceAvailabilityChecker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTServiceAvailabilityChecker-Prefix.pch"; sourceTree = "<group>"; };
+		94912E6B1CC6C500009BE18B /* BTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAppDelegate.h; sourceTree = "<group>"; };
+		94912E6C1CC6C500009BE18B /* BTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAppDelegate.m; sourceTree = "<group>"; };
+		94912E6E1CC6C500009BE18B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94912E741CC6C500009BE18B /* BTServiceAvailabilityCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTServiceAvailabilityCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94912E751CC6C500009BE18B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		94912E7D1CC6C501009BE18B /* BTServiceAvailabilityCheckerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTServiceAvailabilityCheckerTests-Info.plist"; sourceTree = "<group>"; };
+		94912E7F1CC6C501009BE18B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94912E811CC6C501009BE18B /* BTServiceAvailabilityCheckerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTServiceAvailabilityCheckerTests.m; sourceTree = "<group>"; };
+		94912E8B1CC6C529009BE18B /* BTServiceAvailabilityChecker.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BTServiceAvailabilityChecker.storyboard; sourceTree = "<group>"; };
+		94912E8D1CC6CA53009BE18B /* BTServiceAvailabilityCheckerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTServiceAvailabilityCheckerViewController.h; sourceTree = "<group>"; };
+		94912E8E1CC6CA53009BE18B /* BTServiceAvailabilityCheckerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTServiceAvailabilityCheckerViewController.m; sourceTree = "<group>"; };
+		94912E901CC6CAB0009BE18B /* BTServiceAvailabilityDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTServiceAvailabilityDetailsViewController.h; sourceTree = "<group>"; };
+		94912E911CC6CAB0009BE18B /* BTServiceAvailabilityDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTServiceAvailabilityDetailsViewController.m; sourceTree = "<group>"; };
+		94912E931CC6D969009BE18B /* BTAppFontFamily.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAppFontFamily.h; sourceTree = "<group>"; };
+		94912E941CC6D969009BE18B /* BTAppFontFamily.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAppFontFamily.m; sourceTree = "<group>"; };
+		94912E971CC6F7E1009BE18B /* btfont_exbd-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "btfont_exbd-webfont.ttf"; sourceTree = "<group>"; };
+		94912E981CC6F7E1009BE18B /* btfont_lt-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "btfont_lt-webfont.ttf"; sourceTree = "<group>"; };
+		94912E991CC6F7E1009BE18B /* newbt-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "newbt-webfont.ttf"; sourceTree = "<group>"; };
+		94912E9A1CC6F7E1009BE18B /* newbtbd-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "newbtbd-webfont.ttf"; sourceTree = "<group>"; };
+		94912E9F1CC6FB92009BE18B /* BTServiceAvailabilityDetailsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTServiceAvailabilityDetailsTableViewCell.h; sourceTree = "<group>"; };
+		94912EA01CC6FB92009BE18B /* BTServiceAvailabilityDetailsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTServiceAvailabilityDetailsTableViewCell.m; sourceTree = "<group>"; };
+		94912EA11CC6FB92009BE18B /* BTServiceAvailabilityDetailsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTServiceAvailabilityDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		9495651F1CC9289800A3500E /* BTAvailableServiceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAvailableServiceData.h; sourceTree = "<group>"; };
+		949565201CC9289800A3500E /* BTAvailableServiceData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAvailableServiceData.m; sourceTree = "<group>"; };
+		949565221CC99A7500A3500E /* BTRecentlySearchedPhoneNumberTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTRecentlySearchedPhoneNumberTableViewCell.h; sourceTree = "<group>"; };
+		949565231CC99A7500A3500E /* BTRecentlySearchedPhoneNumberTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTRecentlySearchedPhoneNumberTableViewCell.m; sourceTree = "<group>"; };
+		949565241CC99A7500A3500E /* BTRecentlySearchedPhoneNumberTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTRecentlySearchedPhoneNumberTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94912E561CC6C500009BE18B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943351B61CCF27F20056A213 /* libz.dylib in Frameworks */,
+				943351B41CCF27DC0056A213 /* AdSupport.framework in Frameworks */,
+				943351B11CCF26D50056A213 /* SystemConfiguration.framework in Frameworks */,
+				943351B01CCF26C90056A213 /* MobileCoreServices.framework in Frameworks */,
+				943351AF1CCF26B70056A213 /* CFNetwork.framework in Frameworks */,
+				94912E5F1CC6C500009BE18B /* CoreGraphics.framework in Frameworks */,
+				94912E611CC6C500009BE18B /* UIKit.framework in Frameworks */,
+				94912E5D1CC6C500009BE18B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94912E711CC6C500009BE18B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94912E761CC6C500009BE18B /* XCTest.framework in Frameworks */,
+				94912E781CC6C501009BE18B /* UIKit.framework in Frameworks */,
+				94912E771CC6C501009BE18B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9433518A1CCF1E3C0056A213 /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				943351A71CCF1E840056A213 /* Reachability.h */,
+				943351AD1CCF244A0056A213 /* Reachability.m */,
+				9433518B1CCF1E6B0056A213 /* ASIAuthenticationDialog.h */,
+				9433518C1CCF1E6B0056A213 /* ASIAuthenticationDialog.m */,
+				9433518D1CCF1E6B0056A213 /* ASICacheDelegate.h */,
+				9433518E1CCF1E6B0056A213 /* ASIDataCompressor.h */,
+				9433518F1CCF1E6B0056A213 /* ASIDataCompressor.m */,
+				943351901CCF1E6B0056A213 /* ASIDataDecompressor.h */,
+				943351911CCF1E6B0056A213 /* ASIDataDecompressor.m */,
+				943351921CCF1E6B0056A213 /* ASIDownloadCache.h */,
+				943351931CCF1E6B0056A213 /* ASIDownloadCache.m */,
+				943351941CCF1E6B0056A213 /* ASIFormDataRequest.h */,
+				943351951CCF1E6B0056A213 /* ASIFormDataRequest.m */,
+				943351961CCF1E6B0056A213 /* ASIHTTPRequest.h */,
+				943351971CCF1E6B0056A213 /* ASIHTTPRequest.m */,
+				943351981CCF1E6B0056A213 /* ASIHTTPRequestConfig.h */,
+				943351991CCF1E6B0056A213 /* ASIHTTPRequestDelegate.h */,
+				9433519A1CCF1E6B0056A213 /* ASIInputStream.h */,
+				9433519B1CCF1E6B0056A213 /* ASIInputStream.m */,
+				9433519C1CCF1E6B0056A213 /* ASINetworkQueue.h */,
+				9433519D1CCF1E6B0056A213 /* ASINetworkQueue.m */,
+				9433519E1CCF1E6B0056A213 /* ASIProgressDelegate.h */,
+			);
+			name = ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+		94912E501CC6C500009BE18B = {
+			isa = PBXGroup;
+			children = (
+				94912E621CC6C500009BE18B /* BTServiceAvailabilityChecker */,
+				94912E7B1CC6C501009BE18B /* BTServiceAvailabilityCheckerTests */,
+				94912E5B1CC6C500009BE18B /* Frameworks */,
+				94912E5A1CC6C500009BE18B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94912E5A1CC6C500009BE18B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94912E591CC6C500009BE18B /* BTServiceAvailabilityChecker.app */,
+				94912E741CC6C500009BE18B /* BTServiceAvailabilityCheckerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94912E5B1CC6C500009BE18B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				943351B51CCF27F20056A213 /* libz.dylib */,
+				943351B31CCF27DC0056A213 /* AdSupport.framework */,
+				943351881CCED5130056A213 /* MobileCoreServices.framework */,
+				943351861CCED4FE0056A213 /* SystemConfiguration.framework */,
+				943351841CCED4DD0056A213 /* CFNetwork.framework */,
+				94912E5C1CC6C500009BE18B /* Foundation.framework */,
+				94912E5E1CC6C500009BE18B /* CoreGraphics.framework */,
+				94912E601CC6C500009BE18B /* UIKit.framework */,
+				94912E751CC6C500009BE18B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94912E621CC6C500009BE18B /* BTServiceAvailabilityChecker */ = {
+			isa = PBXGroup;
+			children = (
+				9433518A1CCF1E3C0056A213 /* ASIHTTPRequest */,
+				94912E961CC6F7A0009BE18B /* Fonts */,
+				94912E931CC6D969009BE18B /* BTAppFontFamily.h */,
+				94912E941CC6D969009BE18B /* BTAppFontFamily.m */,
+				94912E6B1CC6C500009BE18B /* BTAppDelegate.h */,
+				94912E6C1CC6C500009BE18B /* BTAppDelegate.m */,
+				94912E8D1CC6CA53009BE18B /* BTServiceAvailabilityCheckerViewController.h */,
+				94912E8E1CC6CA53009BE18B /* BTServiceAvailabilityCheckerViewController.m */,
+				94912E901CC6CAB0009BE18B /* BTServiceAvailabilityDetailsViewController.h */,
+				94912E911CC6CAB0009BE18B /* BTServiceAvailabilityDetailsViewController.m */,
+				94912E9F1CC6FB92009BE18B /* BTServiceAvailabilityDetailsTableViewCell.h */,
+				94912EA01CC6FB92009BE18B /* BTServiceAvailabilityDetailsTableViewCell.m */,
+				94912EA11CC6FB92009BE18B /* BTServiceAvailabilityDetailsTableViewCell.xib */,
+				949565221CC99A7500A3500E /* BTRecentlySearchedPhoneNumberTableViewCell.h */,
+				949565231CC99A7500A3500E /* BTRecentlySearchedPhoneNumberTableViewCell.m */,
+				949565241CC99A7500A3500E /* BTRecentlySearchedPhoneNumberTableViewCell.xib */,
+				9495651F1CC9289800A3500E /* BTAvailableServiceData.h */,
+				949565201CC9289800A3500E /* BTAvailableServiceData.m */,
+				947FB8771CCD14DA00F285D8 /* BTSettingsViewController.h */,
+				947FB8781CCD14DA00F285D8 /* BTSettingsViewController.m */,
+				947FB87A1CCD62C100F285D8 /* BTCustomizeHomeScreenViewController.h */,
+				947FB87B1CCD62C100F285D8 /* BTCustomizeHomeScreenViewController.m */,
+				94912E8B1CC6C529009BE18B /* BTServiceAvailabilityChecker.storyboard */,
+				94912E6E1CC6C500009BE18B /* Images.xcassets */,
+				94912E631CC6C500009BE18B /* Supporting Files */,
+			);
+			path = BTServiceAvailabilityChecker;
+			sourceTree = "<group>";
+		};
+		94912E631CC6C500009BE18B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94912E641CC6C500009BE18B /* BTServiceAvailabilityChecker-Info.plist */,
+				94912E651CC6C500009BE18B /* InfoPlist.strings */,
+				94912E681CC6C500009BE18B /* main.m */,
+				94912E6A1CC6C500009BE18B /* BTServiceAvailabilityChecker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94912E7B1CC6C501009BE18B /* BTServiceAvailabilityCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				94912E811CC6C501009BE18B /* BTServiceAvailabilityCheckerTests.m */,
+				94912E7C1CC6C501009BE18B /* Supporting Files */,
+			);
+			path = BTServiceAvailabilityCheckerTests;
+			sourceTree = "<group>";
+		};
+		94912E7C1CC6C501009BE18B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94912E7D1CC6C501009BE18B /* BTServiceAvailabilityCheckerTests-Info.plist */,
+				94912E7E1CC6C501009BE18B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94912E961CC6F7A0009BE18B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				94912E971CC6F7E1009BE18B /* btfont_exbd-webfont.ttf */,
+				94912E981CC6F7E1009BE18B /* btfont_lt-webfont.ttf */,
+				94912E991CC6F7E1009BE18B /* newbt-webfont.ttf */,
+				94912E9A1CC6F7E1009BE18B /* newbtbd-webfont.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94912E581CC6C500009BE18B /* BTServiceAvailabilityChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94912E851CC6C501009BE18B /* Build configuration list for PBXNativeTarget "BTServiceAvailabilityChecker" */;
+			buildPhases = (
+				94912E551CC6C500009BE18B /* Sources */,
+				94912E561CC6C500009BE18B /* Frameworks */,
+				94912E571CC6C500009BE18B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTServiceAvailabilityChecker;
+			productName = BTServiceAvailabilityChecker;
+			productReference = 94912E591CC6C500009BE18B /* BTServiceAvailabilityChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94912E731CC6C500009BE18B /* BTServiceAvailabilityCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94912E881CC6C501009BE18B /* Build configuration list for PBXNativeTarget "BTServiceAvailabilityCheckerTests" */;
+			buildPhases = (
+				94912E701CC6C500009BE18B /* Sources */,
+				94912E711CC6C500009BE18B /* Frameworks */,
+				94912E721CC6C500009BE18B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94912E7A1CC6C501009BE18B /* PBXTargetDependency */,
+			);
+			name = BTServiceAvailabilityCheckerTests;
+			productName = BTServiceAvailabilityCheckerTests;
+			productReference = 94912E741CC6C500009BE18B /* BTServiceAvailabilityCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94912E511CC6C500009BE18B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Accolite;
+				TargetAttributes = {
+					94912E731CC6C500009BE18B = {
+						TestTargetID = 94912E581CC6C500009BE18B;
+					};
+				};
+			};
+			buildConfigurationList = 94912E541CC6C500009BE18B /* Build configuration list for PBXProject "BTServiceAvailabilityChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94912E501CC6C500009BE18B;
+			productRefGroup = 94912E5A1CC6C500009BE18B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94912E581CC6C500009BE18B /* BTServiceAvailabilityChecker */,
+				94912E731CC6C500009BE18B /* BTServiceAvailabilityCheckerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94912E571CC6C500009BE18B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94912E9B1CC6F7E1009BE18B /* btfont_exbd-webfont.ttf in Resources */,
+				94912EA31CC6FB92009BE18B /* BTServiceAvailabilityDetailsTableViewCell.xib in Resources */,
+				94912E671CC6C500009BE18B /* InfoPlist.strings in Resources */,
+				94912E9C1CC6F7E1009BE18B /* btfont_lt-webfont.ttf in Resources */,
+				94912E6F1CC6C500009BE18B /* Images.xcassets in Resources */,
+				94912E9E1CC6F7E1009BE18B /* newbtbd-webfont.ttf in Resources */,
+				94912E8C1CC6C529009BE18B /* BTServiceAvailabilityChecker.storyboard in Resources */,
+				949565261CC99A7500A3500E /* BTRecentlySearchedPhoneNumberTableViewCell.xib in Resources */,
+				94912E9D1CC6F7E1009BE18B /* newbt-webfont.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94912E721CC6C500009BE18B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94912E801CC6C501009BE18B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94912E551CC6C500009BE18B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949565251CC99A7500A3500E /* BTRecentlySearchedPhoneNumberTableViewCell.m in Sources */,
+				943351A41CCF1E6B0056A213 /* ASIHTTPRequest.m in Sources */,
+				943351A61CCF1E6B0056A213 /* ASINetworkQueue.m in Sources */,
+				943351A51CCF1E6B0056A213 /* ASIInputStream.m in Sources */,
+				94912E951CC6D969009BE18B /* BTAppFontFamily.m in Sources */,
+				943351A11CCF1E6B0056A213 /* ASIDataDecompressor.m in Sources */,
+				94912E6D1CC6C500009BE18B /* BTAppDelegate.m in Sources */,
+				947FB87C1CCD62C100F285D8 /* BTCustomizeHomeScreenViewController.m in Sources */,
+				94912E8F1CC6CA53009BE18B /* BTServiceAvailabilityCheckerViewController.m in Sources */,
+				943351A21CCF1E6B0056A213 /* ASIDownloadCache.m in Sources */,
+				943351AE1CCF244A0056A213 /* Reachability.m in Sources */,
+				94912EA21CC6FB92009BE18B /* BTServiceAvailabilityDetailsTableViewCell.m in Sources */,
+				943351A01CCF1E6B0056A213 /* ASIDataCompressor.m in Sources */,
+				949565211CC9289800A3500E /* BTAvailableServiceData.m in Sources */,
+				943351A31CCF1E6B0056A213 /* ASIFormDataRequest.m in Sources */,
+				94912E921CC6CAB0009BE18B /* BTServiceAvailabilityDetailsViewController.m in Sources */,
+				94912E691CC6C500009BE18B /* main.m in Sources */,
+				947FB8791CCD14DA00F285D8 /* BTSettingsViewController.m in Sources */,
+				9433519F1CCF1E6B0056A213 /* ASIAuthenticationDialog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94912E701CC6C500009BE18B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94912E821CC6C501009BE18B /* BTServiceAvailabilityCheckerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94912E7A1CC6C501009BE18B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94912E581CC6C500009BE18B /* BTServiceAvailabilityChecker */;
+			targetProxy = 94912E791CC6C501009BE18B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94912E651CC6C500009BE18B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94912E661CC6C500009BE18B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94912E7E1CC6C501009BE18B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94912E7F1CC6C501009BE18B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94912E831CC6C501009BE18B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94912E841CC6C501009BE18B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94912E861CC6C501009BE18B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTServiceAvailabilityChecker/BTServiceAvailabilityChecker-Prefix.pch";
+				INFOPLIST_FILE = "BTServiceAvailabilityChecker/BTServiceAvailabilityChecker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94912E871CC6C501009BE18B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTServiceAvailabilityChecker/BTServiceAvailabilityChecker-Prefix.pch";
+				INFOPLIST_FILE = "BTServiceAvailabilityChecker/BTServiceAvailabilityChecker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		94912E891CC6C501009BE18B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTServiceAvailabilityChecker.app/BTServiceAvailabilityChecker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTServiceAvailabilityChecker/BTServiceAvailabilityChecker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BTServiceAvailabilityCheckerTests/BTServiceAvailabilityCheckerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		94912E8A1CC6C501009BE18B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTServiceAvailabilityChecker.app/BTServiceAvailabilityChecker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTServiceAvailabilityChecker/BTServiceAvailabilityChecker-Prefix.pch";
+				INFOPLIST_FILE = "BTServiceAvailabilityCheckerTests/BTServiceAvailabilityCheckerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94912E541CC6C500009BE18B /* Build configuration list for PBXProject "BTServiceAvailabilityChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94912E831CC6C501009BE18B /* Debug */,
+				94912E841CC6C501009BE18B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94912E851CC6C501009BE18B /* Build configuration list for PBXNativeTarget "BTServiceAvailabilityChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94912E861CC6C501009BE18B /* Debug */,
+				94912E871CC6C501009BE18B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94912E881CC6C501009BE18B /* Build configuration list for PBXNativeTarget "BTServiceAvailabilityCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94912E891CC6C501009BE18B /* Debug */,
+				94912E8A1CC6C501009BE18B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94912E511CC6C500009BE18B /* Project object */;
+}
