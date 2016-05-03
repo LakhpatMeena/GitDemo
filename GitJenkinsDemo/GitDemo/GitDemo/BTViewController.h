@@ -10,4 +10,6 @@
 
 @interface BTViewController : UIViewController
 
+//- (int)getNumber;
+
 @end

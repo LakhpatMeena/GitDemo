@@ -1,22 +1,26 @@
 //
-//  BTViewController.m
+//  BTViewControllerTests.m
 //  GitDemo
 //
-//  Created by Lakhpat on 02/05/16.
+//  Created by Lakhpat on 03/05/16.
 //  Copyright (c) 2016 Accolite. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
+#import "BTViewController+test.h"
 
-@interface BTViewController : XCTestCase
+@interface BTViewControllerTests : XCTestCase
+
+@property (nonatomic) BTViewController *testClass;
 
 @end
 
-@implementation BTViewController
+@implementation BTViewControllerTests
 
 - (void)setUp
 {
     [super setUp];
+    self.testClass = [[BTViewController alloc] init];
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
@@ -26,8 +30,11 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testCheckNumber
 {
+    int original = 10;
+    int expected = [self.testClass getNumber];
+    XCTAssertEqual(original, expected, @"not equal");
     //XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
 }
 
