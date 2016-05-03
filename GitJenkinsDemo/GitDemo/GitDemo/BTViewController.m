@@ -18,7 +18,6 @@
 {
     [super viewDidLoad];
     NSLog(@"ViewDidLoad");
-    NSLog(@"GitConfig");
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
