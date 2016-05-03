@@ -25,7 +25,6 @@
 		943351FE1CD776060056A213 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943351C31CD0748F0056A213 /* Foundation.framework */; };
 		943351FF1CD776060056A213 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943351C71CD0748F0056A213 /* UIKit.framework */; };
 		943352051CD776060056A213 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 943352031CD776060056A213 /* InfoPlist.strings */; };
-		943352071CD776060056A213 /* GitDemoLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943352061CD776060056A213 /* GitDemoLogicTests.m */; };
 		947F576B1CD8F24700FDF64B /* BTViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 947F576A1CD8F24700FDF64B /* BTViewControllerTests.m */; };
 		947F576E1CD8F7E800FDF64B /* BTViewController+test.m in Sources */ = {isa = PBXBuildFile; fileRef = 947F576D1CD8F7E800FDF64B /* BTViewController+test.m */; };
 /* End PBXBuildFile section */
@@ -356,7 +355,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				947F576B1CD8F24700FDF64B /* BTViewControllerTests.m in Sources */,
-				943352071CD776060056A213 /* GitDemoLogicTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
